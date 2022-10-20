@@ -1,0 +1,308 @@
+13:28:48 **** Incremental Build of configuration Debug for project LCDisplay ****
+make -j7 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "LCDisplay.elf" @"objects.list"   -mcpu=cortex-m4 -T"/Users/yangli/STM32CubeIDE/LCD/LCDisplay/STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="LCDisplay.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: LCDisplay.elf
+ 
+arm-none-eabi-size   LCDisplay.elf 
+arm-none-eabi-objdump -h -S  LCDisplay.elf  > "LCDisplay.list"
+   text	   data	    bss	    dec	    hex	filename
+   8972	     20	   1644	  10636	   298c	LCDisplay.elf
+Finished building: default.size.stdout
+ 
+Finished building: LCDisplay.list
+ 
+13:29:14 **** Incremental Build of configuration Debug for project LCDisplay ****
+make -j7 all 
+arm-none-eabi-size   LCDisplay.elf 
+   text	   data	    bss	    dec	    hex	filename
+   8972	     20	   1644	  10636	   298c	LCDisplay.elf
+Finished building: default.size.stdout
+ 
+13:30:08 **** Incremental Build of configuration Debug for project LCDisplay ****
+make -j7 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "LCDisplay.elf" @"objects.list"   -mcpu=cortex-m4 -T"/Users/yangli/STM32CubeIDE/LCD/LCDisplay/STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="LCDisplay.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: LCDisplay.elf
+ 
+arm-none-eabi-size   LCDisplay.elf 
+arm-none-eabi-objdump -h -S  LCDisplay.elf  > "LCDisplay.list"
+   text	   data	    bss	    dec	    hex	filename
+   8972	     20	   1644	  10636	   298c	LCDisplay.elf
+Finished building: default.size.stdout
+ 
+Finished building: LCDisplay.list
+ 
+13:31:40 **** Incremental Build of configuration Debug for project LCDisplay ****
+make -j7 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "LCDisplay.elf" @"objects.list"   -mcpu=cortex-m4 -T"/Users/yangli/STM32CubeIDE/LCD/LCDisplay/STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="LCDisplay.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: LCDisplay.elf
+ 
+arm-none-eabi-size   LCDisplay.elf 
+arm-none-eabi-objdump -h -S  LCDisplay.elf  > "LCDisplay.list"
+   text	   data	    bss	    dec	    hex	filename
+   8872	     20	   1644	  10536	   2928	LCDisplay.elf
+Finished building: default.size.stdout
+ 
+Finished building: LCDisplay.list
+ 
+13:32:28 **** Incremental Build of configuration Debug for project LCDisplay ****
+make -j7 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "LCDisplay.elf" @"objects.list"   -mcpu=cortex-m4 -T"/Users/yangli/STM32CubeIDE/LCD/LCDisplay/STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="LCDisplay.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: LCDisplay.elf
+ 
+arm-none-eabi-size   LCDisplay.elf 
+arm-none-eabi-objdump -h -S  LCDisplay.elf  > "LCDisplay.list"
+   text	   data	    bss	    dec	    hex	filename
+   8696	     20	   1644	  10360	   2878	LCDisplay.elf
+Finished building: default.size.stdout
+ 
+Finished building: LCDisplay.list
+ 
+13:32:44 **** Incremental Build of configuration Debug for project LCDisplay ****
+make -j7 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "LCDisplay.elf" @"objects.list"   -mcpu=cortex-m4 -T"/Users/yangli/STM32CubeIDE/LCD/LCDisplay/STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="LCDisplay.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: LCDisplay.elf
+ 
+arm-none-eabi-size   LCDisplay.elf 
+arm-none-eabi-objdump -h -S  LCDisplay.elf  > "LCDisplay.list"
+   text	   data	    bss	    dec	    hex	filename
+   8696	     20	   1644	  10360	   2878	LCDisplay.elf
+Finished building: default.size.stdout
+ 
+Finished building: LCDisplay.list
+ 
+13:32:54 **** Incremental Build of configuration Debug for project LCDisplay ****
+make -j7 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "LCDisplay.elf" @"objects.list"   -mcpu=cortex-m4 -T"/Users/yangli/STM32CubeIDE/LCD/LCDisplay/STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="LCDisplay.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: LCDisplay.elf
+ 
+arm-none-eabi-size   LCDisplay.elf 
+arm-none-eabi-objdump -h -S  LCDisplay.elf  > "LCDisplay.list"
+   text	   data	    bss	    dec	    hex	filename
+   8696	     20	   1644	  10360	   2878	LCDisplay.elf
+Finished building: default.size.stdout
+ 
+Finished building: LCDisplay.list
+ 
+13:36:24 **** Incremental Build of configuration Debug for project LCDisplay ****
+make -j7 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "LCDisplay.elf" @"objects.list"   -mcpu=cortex-m4 -T"/Users/yangli/STM32CubeIDE/LCD/LCDisplay/STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="LCDisplay.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: LCDisplay.elf
+ 
+arm-none-eabi-size   LCDisplay.elf 
+arm-none-eabi-objdump -h -S  LCDisplay.elf  > "LCDisplay.list"
+   text	   data	    bss	    dec	    hex	filename
+   8752	     20	   1644	  10416	   28b0	LCDisplay.elf
+Finished building: default.size.stdout
+ 
+Finished building: LCDisplay.list
+ 
+13:36:43 **** Incremental Build of configuration Debug for project LCDisplay ****
+make -j7 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "LCDisplay.elf" @"objects.list"   -mcpu=cortex-m4 -T"/Users/yangli/STM32CubeIDE/LCD/LCDisplay/STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="LCDisplay.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: LCDisplay.elf
+ 
+arm-none-eabi-size   LCDisplay.elf 
+arm-none-eabi-objdump -h -S  LCDisplay.elf  > "LCDisplay.list"
+   text	   data	    bss	    dec	    hex	filename
+   8752	     20	   1644	  10416	   28b0	LCDisplay.elf
+Finished building: default.size.stdout
+ 
+Finished building: LCDisplay.list
+ 
+13:36:54 **** Incremental Build of configuration Debug for project LCDisplay ****
+make -j7 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "LCDisplay.elf" @"objects.list"   -mcpu=cortex-m4 -T"/Users/yangli/STM32CubeIDE/LCD/LCDisplay/STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="LCDisplay.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: LCDisplay.elf
+ 
+arm-none-eabi-size   LCDisplay.elf 
+arm-none-eabi-objdump -h -S  LCDisplay.elf  > "LCDisplay.list"
+   text	   data	    bss	    dec	    hex	filename
+   8752	     20	   1644	  10416	   28b0	LCDisplay.elf
+Finished building: default.size.stdout
+ 
+Finished building: LCDisplay.list
+ 
+13:37:03 **** Incremental Build of configuration Debug for project LCDisplay ****
+make -j7 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "LCDisplay.elf" @"objects.list"   -mcpu=cortex-m4 -T"/Users/yangli/STM32CubeIDE/LCD/LCDisplay/STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="LCDisplay.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: LCDisplay.elf
+ 
+arm-none-eabi-size   LCDisplay.elf 
+arm-none-eabi-objdump -h -S  LCDisplay.elf  > "LCDisplay.list"
+   text	   data	    bss	    dec	    hex	filename
+   8752	     20	   1644	  10416	   28b0	LCDisplay.elf
+Finished building: default.size.stdout
+ 
+Finished building: LCDisplay.list
+ 
+13:37:11 **** Incremental Build of configuration Debug for project LCDisplay ****
+make -j7 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "LCDisplay.elf" @"objects.list"   -mcpu=cortex-m4 -T"/Users/yangli/STM32CubeIDE/LCD/LCDisplay/STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="LCDisplay.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: LCDisplay.elf
+ 
+arm-none-eabi-size   LCDisplay.elf 
+arm-none-eabi-objdump -h -S  LCDisplay.elf  > "LCDisplay.list"
+   text	   data	    bss	    dec	    hex	filename
+   8752	     20	   1644	  10416	   28b0	LCDisplay.elf
+Finished building: default.size.stdout
+ 
+Finished building: LCDisplay.list
+ 
+13:38:00 **** Incremental Build of configuration Debug for project LCDisplay ****
+make -j7 all 
+arm-none-eabi-size   LCDisplay.elf 
+   text	   data	    bss	    dec	    hex	filename
+   8752	     20	   1644	  10416	   28b0	LCDisplay.elf
+Finished building: default.size.stdout
+ 
+13:38:25 **** Incremental Build of configuration Debug for project LCDisplay ****
+make -j7 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "LCDisplay.elf" @"objects.list"   -mcpu=cortex-m4 -T"/Users/yangli/STM32CubeIDE/LCD/LCDisplay/STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="LCDisplay.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: LCDisplay.elf
+ 
+arm-none-eabi-size   LCDisplay.elf 
+arm-none-eabi-objdump -h -S  LCDisplay.elf  > "LCDisplay.list"
+   text	   data	    bss	    dec	    hex	filename
+   8752	     20	   1644	  10416	   28b0	LCDisplay.elf
+Finished building: default.size.stdout
+ 
+Finished building: LCDisplay.list
+ 
+13:38:40 **** Incremental Build of configuration Debug for project LCDisplay ****
+make -j7 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "LCDisplay.elf" @"objects.list"   -mcpu=cortex-m4 -T"/Users/yangli/STM32CubeIDE/LCD/LCDisplay/STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="LCDisplay.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: LCDisplay.elf
+ 
+arm-none-eabi-size   LCDisplay.elf 
+arm-none-eabi-objdump -h -S  LCDisplay.elf  > "LCDisplay.list"
+   text	   data	    bss	    dec	    hex	filename
+   8928	     20	   1644	  10592	   2960	LCDisplay.elf
+Finished building: default.size.stdout
+ 
+Finished building: LCDisplay.list
+ 
+13:39:12 **** Incremental Build of configuration Debug for project LCDisplay ****
+make -j7 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "LCDisplay.elf" @"objects.list"   -mcpu=cortex-m4 -T"/Users/yangli/STM32CubeIDE/LCD/LCDisplay/STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="LCDisplay.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: LCDisplay.elf
+ 
+arm-none-eabi-size   LCDisplay.elf 
+arm-none-eabi-objdump -h -S  LCDisplay.elf  > "LCDisplay.list"
+   text	   data	    bss	    dec	    hex	filename
+   8928	     20	   1644	  10592	   2960	LCDisplay.elf
+Finished building: default.size.stdout
+ 
+Finished building: LCDisplay.list
+ 
+13:39:28 **** Incremental Build of configuration Debug for project LCDisplay ****
+make -j7 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "LCDisplay.elf" @"objects.list"   -mcpu=cortex-m4 -T"/Users/yangli/STM32CubeIDE/LCD/LCDisplay/STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="LCDisplay.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: LCDisplay.elf
+ 
+arm-none-eabi-size   LCDisplay.elf 
+arm-none-eabi-objdump -h -S  LCDisplay.elf  > "LCDisplay.list"
+   text	   data	    bss	    dec	    hex	filename
+   8928	     20	   1644	  10592	   2960	LCDisplay.elf
+Finished building: default.size.stdout
+ 
+Finished building: LCDisplay.list
+ 
+13:40:17 **** Incremental Build of configuration Debug for project LCDisplay ****
+make -j7 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "LCDisplay.elf" @"objects.list"   -mcpu=cortex-m4 -T"/Users/yangli/STM32CubeIDE/LCD/LCDisplay/STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="LCDisplay.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: LCDisplay.elf
+ 
+arm-none-eabi-size   LCDisplay.elf 
+arm-none-eabi-objdump -h -S  LCDisplay.elf  > "LCDisplay.list"
+   text	   data	    bss	    dec	    hex	filename
+   8928	     20	   1644	  10592	   2960	LCDisplay.elf
+Finished building: default.size.stdout
+ 
+Finished building: LCDisplay.list
+ 
+13:40:29 **** Incremental Build of configuration Debug for project LCDisplay ****
+make -j7 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "LCDisplay.elf" @"objects.list"   -mcpu=cortex-m4 -T"/Users/yangli/STM32CubeIDE/LCD/LCDisplay/STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="LCDisplay.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: LCDisplay.elf
+ 
+arm-none-eabi-size   LCDisplay.elf 
+arm-none-eabi-objdump -h -S  LCDisplay.elf  > "LCDisplay.list"
+   text	   data	    bss	    dec	    hex	filename
+   8928	     20	   1644	  10592	   2960	LCDisplay.elf
+Finished building: default.size.stdout
+ 
+Finished building: LCDisplay.list
+ 
+13:42:59 **** Incremental Build of configuration Debug for project LCDisplay ****
+make -j7 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "LCDisplay.elf" @"objects.list"   -mcpu=cortex-m4 -T"/Users/yangli/STM32CubeIDE/LCD/LCDisplay/STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="LCDisplay.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: LCDisplay.elf
+ 
+arm-none-eabi-size   LCDisplay.elf 
+arm-none-eabi-objdump -h -S  LCDisplay.elf  > "LCDisplay.list"
+   text	   data	    bss	    dec	    hex	filename
+   8936	     20	   1644	  10600	   2968	LCDisplay.elf
+Finished building: default.size.stdout
+ 
+Finished building: LCDisplay.list
+ 
+13:50:06 **** Incremental Build of configuration Debug for project LCDisplay ****
+make -j7 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "LCDisplay.elf" @"objects.list"   -mcpu=cortex-m4 -T"/Users/yangli/STM32CubeIDE/LCD/LCDisplay/STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="LCDisplay.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: LCDisplay.elf
+ 
+arm-none-eabi-size   LCDisplay.elf 
+arm-none-eabi-objdump -h -S  LCDisplay.elf  > "LCDisplay.list"
+   text	   data	    bss	    dec	    hex	filename
+   8936	     20	   1644	  10600	   2968	LCDisplay.elf
+Finished building: default.size.stdout
+ 
+Finished building: LCDisplay.list
+ 
+13:50:37 **** Incremental Build of configuration Debug for project LCDisplay ****
+make -j7 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "LCDisplay.elf" @"objects.list"   -mcpu=cortex-m4 -T"/Users/yangli/STM32CubeIDE/LCD/LCDisplay/STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="LCDisplay.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: LCDisplay.elf
+ 
+arm-none-eabi-size   LCDisplay.elf 
+arm-none-eabi-objdump -h -S  LCDisplay.elf  > "LCDisplay.list"
+   text	   data	    bss	    dec	    hex	filename
+   8860	     20	   1644	  10524	   291c	LCDisplay.elf
+Finished building: default.size.stdout
+ 
+Finished building: LCDisplay.list
+ 
+13:51:13 **** Incremental Build of configuration Debug for project LCDisplay ****
+make -j7 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F401xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "LCDisplay.elf" @"objects.list"   -mcpu=cortex-m4 -T"/Users/yangli/STM32CubeIDE/LCD/LCDisplay/STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="LCDisplay.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: LCDisplay.elf
+ 
+arm-none-eabi-size   LCDisplay.elf 
+arm-none-eabi-objdump -h -S  LCDisplay.elf  > "LCDisplay.list"
+   text	   data	    bss	    dec	    hex	filename
+   8936	     20	   1644	  10600	   2968	LCDisplay.elf
+Finished building: default.size.stdout
+ 
+Finished building: LCDisplay.list
+ 
